@@ -2,6 +2,36 @@
 
 ---
 
+## v2.01 — May 7, 2026
+
+### Fixes
+
+**Overlay DPS Calculation**
+- Fixed an issue where the overlay DPS was significantly lower than the report DPS after resetting (F6). The overlay's timer was not cleared on reset, causing the denominator to span the entire session instead of just the post-reset combat.
+
+**Duplicate Upload Prevention**
+- Reports can now only be uploaded once. The server uses device ID + timestamp as a unique key and rejects duplicate uploads.
+
+---
+
+### Improvements
+
+**Report Manager**
+- Uploaded reports now show a ✓ mark next to the date (dimmed) for easy identification.
+- "Select All" automatically skips already-uploaded reports.
+- Upload results now display a colored summary: ✓ success, ⟳ duplicate, ✗ failed.
+- Failures show a player-friendly error message.
+- Checkbox selection count updates in real time.
+- Character names now follow the current language setting.
+- Added "Rankings" and "Pairings" buttons that open the analytics platform with automatic authentication.
+
+**Analytics Platform (ntedpsmeter.com)**
+- The Connect page now supports automatic verification when opened from the desktop app — no need to manually paste tokens.
+- Added FAQ sections to the Homepage, Rankings, and Pairing Rates pages explaining how median, pairing rates, and other stats are calculated.
+- Report data no longer auto-expires.
+
+---
+
 ## v2.00 — May 6, 2026
 
 ### New Feature: Community Analytics
