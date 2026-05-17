@@ -2,6 +2,86 @@
 
 ---
 
+## v3.0 — May 17, 2026
+
+### New Feature: Session Mode Auto-Detection
+
+The tool now automatically identifies the game mode you're playing and records full stage information in battle reports.
+
+**Supported Modes**
+- **High-Risk Commissions** — Automatically identifies boss and difficulty tier (I–VI). Reports display the commission name.
+- **Weekly Clone** — Automatically identifies boss and difficulty tier (I–VII).
+- **Anomaly Hunt** — Automatically identifies world bosses.
+- **Beyond the Rails** — Automatically identifies route, station, and upper/lower half.
+- When no mode can be matched, the session is marked as "Free Combat."
+
+**Stage Information Display**
+- A new "Stage" column in the Report Manager shows the commission name with a Roman numeral tier (e.g., "Beat King III", "Fracture Circle S5 Upper").
+- Each mode has a dedicated icon, displayed in the Report Manager, main window dropdown, and comparison mode.
+- Tier detection uses HP matching: mob health values extracted from DataTables are matched against observed values to determine the current difficulty.
+
+---
+
+### New Feature: HPS Indicator (Hits Per Second)
+
+A new metric for measuring character attack speed.
+
+- The overlay card displays total HPS on row 4.
+- Also shown in the main window header, rank summary, and character detail panel.
+- Battle report JSON now includes an `hps` field (total HPS + per-character HPS).
+
+---
+
+### New Feature: ECT Indicator (Estimated Clear Time)
+
+Real-time estimation of how long it will take to defeat the current target.
+
+- The overlay card displays ECT on row 5, formatted as `mm:ss`.
+- Calculated as: target's current HP ÷ your DPS.
+- ECT automatically follows when you switch attack targets.
+
+---
+
+### New Feature: Session End Freeze
+
+- When a stage ends, the overlay freezes and retains the final combat data display.
+- The overlay will not auto-collapse due to inactivity, letting you review your final performance.
+- Automatically unfreezes when the next combat begins.
+
+---
+
+### Improvements
+
+**Overlay**
+- Data rows expanded from 3 to 5: Total Damage, Hit Count, DPS, HPS, ECT.
+- Character portrait enlarged (22px → 33px) for better visibility.
+- Unknown character placeholder now shows a gray avatar instead of a "?" text.
+- Simplified click behavior: clicking during combat directly collapses the overlay without waiting for click-through to disengage.
+
+**Main Window Now Free**
+- All main window entry points (tray double-click, Alt+E, context menu) no longer require a Sponsor key.
+- Report Comparison remains Sponsor-exclusive.
+
+**Analytics Platform**
+- Minimum upload damage threshold lowered from 100,000 to 50,000, allowing lower-level players' full boss kills to qualify for rankings.
+- Added FAQ to the Compositions page explaining why report counts differ from Rankings.
+
+**Performance & Stability**
+- Packet processing hot-path optimizations for smoother performance during high hit rates.
+- Improved memory usage: the Report Manager no longer retains full report data in memory.
+- Internal code architecture cleanup for improved long-term stability.
+
+---
+
+### Fixes
+
+- Fixed High-Risk Commission stage detection failure. When mobs attack the player, their HP values could pollute the boss HP observation pool, causing incorrect tier matching.
+- Fixed `total_damage` calculation inconsistency during report upload.
+- Fixed a memory leak caused by repeatedly opening and closing the Report Manager.
+- Fixed report dropdowns in the main window and comparison mode not refreshing after deleting reports.
+
+---
+
 ## v2.01 — May 7, 2026
 
 ### Fixes
