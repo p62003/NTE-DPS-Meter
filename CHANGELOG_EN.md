@@ -2,6 +2,46 @@
 
 ---
 
+## v3.1 — May 23, 2026
+
+### New Features
+
+- Report Manager now has a "Refresh" button — view new reports and apply language changes without closing the window.
+- Report Manager now has an "Open Folder" button to quickly access the reports directory.
+- Beyond the Rails now displays ECT (Estimated Clear Time), previously excluded.
+
+### Improvements
+
+**Session Architecture**
+- Session mode detection refactored into a 3-primitive + 5-handler architecture, improving detection stability and maintainability.
+- Anomaly Hunt now supports Boss19.
+- Weekly Clone now supports retry detection (auto-saves when the same boss appears again). ⚠️ **Preview** — This feature is not yet stable. The reliable approach is to manually press F6 to reset DPS when retrying.
+
+**Overlay**
+- The overlay right-click menu is no longer blocked when other windows are open. You can now operate the overlay at any time.
+- Unknown characters now display a fallback icon in the overlay and rank bar, replacing the "?" text.
+
+**Main Window**
+- When the main window is already open but in the background, triggering it again now brings it to the foreground instead of closing it.
+- Reordered title bar buttons.
+
+**Context Menu**
+- Reordered menu items: language toggle moved next to network interface; diagnostics and dump moved above check for updates.
+
+**Report Manager**
+- Adjusted text color on gold buttons (Rankings, Pairings, Upload Selected) for better readability.
+
+**Updater**
+- Npcap downloads now include SHA256 checksum verification to prevent corrupted or tampered files.
+- Added path traversal defense to block malicious manifest paths from accessing local files.
+
+### Fixes
+
+- Fixed overlay click-through not working during combat, restoring normal in-game interaction.
+- Fixed certain characters (Daffodill, Fadia, Hotori) causing report uploads to be rejected.
+
+---
+
 ## v3.0 — May 17, 2026
 
 ### New Feature: Session Mode Auto-Detection

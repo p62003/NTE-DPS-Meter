@@ -39,14 +39,14 @@ If you donate over $6 USD, please let us know — we'd like to offer you a Spons
 
 ### Real-Time DPS Overlay
 
-Always-on-top transparent card with circular character portrait, breathing glow ring, and three rows of live data. Auto-expands during combat, auto-collapses after 5 seconds idle. Click-through during combat — zero interference with gameplay.
+Always-on-top transparent card with circular character portrait, breathing glow ring, and five rows of live data (Damage, Hits, DPS, HPS, ECT). Auto-expands during combat, auto-collapses after 5 seconds idle. Click-through during combat — zero interference with gameplay.
 
 ![Overlay Idle](images/overlay_idle_EN.png)
 ![Overlay Combat](images/overlay_combat_EN.png)
 
 ### Character Detection
 
-Automatically identifies the active character in real time. Supports all 17 launch characters with per-character independent damage tracking across your 4-character party.
+Automatically identifies the active character in real time. Supports all released characters with per-character independent damage tracking across your 4-character party.
 
 ### Battle Reports & Report Manager
 
@@ -64,7 +64,7 @@ Live community data aggregated from uploaded battle reports:
 - **Tri-lingual** — EN / 繁體中文 / 简体中文
 - **Privacy-friendly** — explicit consent required before upload, data is anonymized
 
-### Main Window (Sponsor)
+### Main Window
 
 Full team damage contribution at a glance — character ranking panel + hit detail panel in dual-column layout. All data stored locally.
 
@@ -96,7 +96,7 @@ Side-by-side A/B comparison of different team compositions with damage and DPS d
 | Hotkeys (overlay / reset, customizable) | ✔ | ✔ |
 | Network Adapter Selection | ✔ | ✔ |
 | Community Rankings | ✔ | ✔ |
-| Main Window (rankings + hit details + report review) | — | ✔ |
+| Main Window (rankings + hit details + report review) | ✔ | ✔ |
 | Report Comparison (A/B side-by-side) | — | ✔ |
 | Character Pairing Matrix | — | ✔ |
 
@@ -125,7 +125,7 @@ Sponsor keys are a thank-you reward for supporting development — not a subscri
 |--------|----------|
 | `F6` | Reset stats and save battle report |
 | `Alt + D` | Show / Hide overlay |
-| `Alt + E` | Show / Hide main window (Sponsor) |
+| `Alt + E` | Show / Hide main window |
 
 Hotkeys are customizable via right-click menu → Hotkey Settings.
 
