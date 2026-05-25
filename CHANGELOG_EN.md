@@ -2,6 +2,76 @@
 
 ---
 
+## v4.0 — May 25, 2026
+
+### New Feature: Damage ECG (Electrocardiogram)
+
+A real-time damage waveform chart in the main window that records every single hit.
+
+- All party hits merged into one timeline. Wave colors reflect attack rhythm (green = rapid combos / gray = normal / red = gap between bursts).
+- Character switch points are marked on the X-axis with avatar icons, showing rotation timing at a glance.
+- Drag with inertia scrolling, Ctrl+scroll to zoom the time axis, hover to view character name and damage value.
+- Collapsible, and also integrated into Report Comparison mode.
+
+---
+
+### New Feature: Personal Dashboard (Sponsor Exclusive)
+
+Analyze your battle history and track personal growth. All data is processed locally — nothing is uploaded.
+
+- **Combat Overview** — Total sessions, accumulated damage, most-used character, historical max damage table, last 5 battles.
+- **Damage Growth** — Per-character damage trend curves. Click avatar buttons to switch characters.
+- **Appearance Stats** — Character usage frequency analysis.
+- **Dungeon Growth** — Per-stage damage progress curves.
+
+---
+
+### New Feature: Cultivation Guide (Free)
+
+A material overview for 20 characters with tri-lingual support.
+
+- **Breakthrough Materials** — Required materials and quantities per stage, with item icons.
+- **Skill Upgrades** — Upgrade materials for 4 active skills + 2 passive skills (including passive unlock costs).
+- **Bond Gifts** — Three strategies: Fons efficiency (best value), gold-only (zero Fons cost), fewest types (minimal inventory).
+
+---
+
+### New Feature: Discord Account Linking
+
+- Link your Discord account from the desktop app with one click — opens the browser for OAuth authorization.
+- Your linked Discord account can be used to log into the analytics platform and access full features.
+- Serial activation now requires a linked Discord account to prevent abuse.
+
+---
+
+### Improvements
+
+**Analytics Platform**
+- Discord login is now supported. Once logged in, Rankings are directly accessible on the web.
+- Sponsors can verify their serial key on the website after Discord login, without needing the desktop app.
+- Report uploads now include stage information (mode/boss/difficulty), preparing for future stage-based rankings.
+
+**Announcement Window**
+- Serial management is now unified in the startup announcement window — all serial operations in one place.
+- Discord binding is now required before activating a serial key.
+
+**Context Menu**
+- Menu items reorganized into logical groups for a cleaner structure.
+- Sponsor-exclusive features (Dashboard, More Analytics) are now visible to all users, with a prompt shown for non-sponsors.
+
+**Main Window**
+- Header bar buttons rearranged for a more intuitive workflow.
+
+**Simplified Chinese**
+- Fixed character names, stage names, and cultivation material names not being properly converted in Simplified Chinese mode.
+
+### Fixes
+
+- Fixed overlay DPS dropping to zero or showing incorrect values after session transitions (timer state not cleared when freeze was lifted).
+- Fixed serial deactivation not properly clearing binding data on restart (settings file not removing fields on deactivation).
+
+---
+
 ## v3.1 — May 23, 2026
 
 ### New Features

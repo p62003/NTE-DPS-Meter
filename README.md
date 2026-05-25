@@ -54,30 +54,51 @@ Press **F6** to reset stats — your current battle is automatically saved as a 
 
 ![Report Manager](images/report_manager_EN.png)
 
+### Main Window & Damage ECG
+
+Full team damage contribution at a glance — character ranking panel + hit detail panel + damage ECG in a three-section layout. All data stored locally.
+
+The **Damage ECG** renders every hit as a real-time waveform. Wave colors reflect attack rhythm (green = rapid combos, gray = normal, red = burst gap). Character switch points are marked with avatar icons on the X-axis. Supports drag scrolling with inertia and Ctrl+scroll zoom.
+
+![Main Window](images/main_window_EN.png)
+
+### Report Comparison (Sponsor)
+
+Side-by-side A/B comparison of different team compositions with damage and DPS difference summary + integrated ECG.
+
+![Compare Mode](images/compare_mode_EN.png)
+
+### Personal Dashboard (Sponsor)
+
+Analyze your battle history and track personal growth across four tabs. All data processed locally — nothing uploaded.
+
+| | |
+|---|---|
+| ![Battle Overview](images/dashboard_BattleOverview.png) | ![Damage Growth](images/dashboard_DamageGrowth.png) |
+| **Battle Overview** — total sessions, accumulated damage, most-used character, historical max, recent battles | **Damage Growth** — per-character damage trend curves, click avatars to toggle |
+| ![Appearance Stats](images/dashboard_AppearanceCount.png) | ![Stage Growth](images/dashboard_StageGrowth.png) |
+| **Appearance Stats** — character usage frequency | **Stage Growth** — per-stage damage progress curves |
+
+### Cultivation Guide (Free)
+
+Material overview for 20 characters — breakthrough materials, skill upgrades (including passives), and bond gift strategies with three optimization modes.
+
+![Cultivation 1](images/char_grow_EN1.png)
+![Cultivation 2](images/char_grow_EN2.png)
+
 ### Community Analytics — [ntedpsmeter.com](https://ntedpsmeter.com)
 
 Live community data aggregated from uploaded battle reports:
 
 - **Character Rankings** — damage rankings by tier (1min / 3min / 6min / 9min), showing median + max + range
 - **Character Pairing Matrix** — visual heatmap of character combination adoption rates (Sponsor)
-- **Connect Flow** — paste Device ID or Analytics Token to view personal stats on the web
+- **Discord Login** — log in with Discord; sponsors can verify serial keys directly on the web
 - **Tri-lingual** — EN / 繁體中文 / 简体中文
 - **Privacy-friendly** — explicit consent required before upload, data is anonymized
 
-### Main Window
-
-Full team damage contribution at a glance — character ranking panel + hit detail panel in dual-column layout. All data stored locally.
-
-![Main Window](images/main_window_EN.png)
-
-### Report Comparison (Sponsor)
-
-Side-by-side A/B comparison of different team compositions with damage and DPS difference summary.
-
-![Compare Mode](images/compare_mode_EN.png)
-
 ### Additional Features
 
+- **Discord Account Linking** — link your Discord from the desktop app for analytics platform login and serial verification
 - **Hotkeys** — F6 reset, Alt+D overlay, Alt+E main window; fully customizable
 - **Network adapter selection** — manual switch for accelerator/VPN setups; ExitLag continuously supported
 - **Tri-lingual interface** — 繁體中文 / 简体中文 / English, instant switch
@@ -92,12 +113,15 @@ Side-by-side A/B comparison of different team compositions with damage and DPS d
 |---------|------|---------|
 | DPS Overlay | ✔ | ✔ |
 | Character Detection | ✔ | ✔ |
+| Damage ECG | ✔ | ✔ |
+| Cultivation Guide | ✔ | ✔ |
 | Report Manager (save / filter / upload / delete) | ✔ | ✔ |
 | Hotkeys (overlay / reset, customizable) | ✔ | ✔ |
 | Network Adapter Selection | ✔ | ✔ |
 | Community Rankings | ✔ | ✔ |
 | Main Window (rankings + hit details + report review) | ✔ | ✔ |
-| Report Comparison (A/B side-by-side) | — | ✔ |
+| Personal Dashboard | — | ✔ |
+| Report Comparison (A/B side-by-side + ECG) | — | ✔ |
 | Character Pairing Matrix | — | ✔ |
 
 Sponsor keys are a thank-you reward for supporting development — not a subscription. Each key is valid for **30 days**. Free features are never restricted.
