@@ -39,7 +39,7 @@ If you donate over $6 USD, please let us know — we'd like to offer you a Spons
 
 ### Real-Time DPS Overlay
 
-Always-on-top transparent card with circular character portrait, breathing glow ring, and five rows of live data (Damage, Hits, DPS, HPS, ECT). Auto-expands during combat, auto-collapses after 5 seconds idle. Click-through during combat — zero interference with gameplay.
+Always-on-top transparent card with 3-row layout (Damage + bar / Hits + bar / ECT | HPS | DPS), game-style sprite font + metallic text rendering, and full party rows showing all active characters with damage and team share. Auto-expands during combat, auto-collapses after 5 seconds idle. Click-through during combat — zero interference with gameplay.
 
 ![Overlay Idle](images/overlay_idle_EN.png)
 ![Overlay Combat](images/overlay_combat_EN.png)
@@ -98,10 +98,14 @@ Live community data aggregated from uploaded battle reports:
 
 ### Additional Features
 
+- **YouTube Guide Search** — search character guides from the context menu with one click; plays in a floating window
+
+![YouTube Search](images/youtube_search_EN.png)
+
 - **Discord Account Linking** — link your Discord from the desktop app for analytics platform login and serial verification
 - **Hotkeys** — F6 reset, Alt+D overlay, Alt+E main window; fully customizable
 - **Network adapter selection** — manual switch for accelerator/VPN setups; ExitLag continuously supported
-- **Tri-lingual interface** — 繁體中文 / 简体中文 / English, instant switch
+- **Tri-lingual interface** — 繁體中文 / 简体中文 / English (dropdown selection or right-click menu cycle)
 - **System tray resident** — runs quietly, no taskbar clutter
 - **Auto-updater** — check for updates from the right-click menu
 
@@ -115,6 +119,7 @@ Live community data aggregated from uploaded battle reports:
 | Character Detection | ✔ | ✔ |
 | Damage ECG | ✔ | ✔ |
 | Cultivation Guide | ✔ | ✔ |
+| YouTube Guide Search | ✔ | ✔ |
 | Report Manager (save / filter / upload / delete) | ✔ | ✔ |
 | Hotkeys (overlay / reset, customizable) | ✔ | ✔ |
 | Network Adapter Selection | ✔ | ✔ |
