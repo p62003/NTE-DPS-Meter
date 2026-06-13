@@ -41,8 +41,11 @@ If you donate over $6 USD, please let us know — we'd like to offer you a Spons
 
 Always-on-top transparent card with 3-row layout (Damage + bar / Hits + bar / ECT | HPS | DPS), game-style sprite font + metallic text rendering, and full party rows showing all active characters with damage and team share. Auto-expands during combat, auto-collapses after 5 seconds idle. Click-through during combat — zero interference with gameplay.
 
+**Classic Overlay** — A traditional raid meter style persistent panel. Rank + circular avatar + character name + total damage (K/M) + share % + DPS per row. Character-colored damage bars at low opacity. No animations — always visible. Toggle from the right-click menu. Free feature.
+
 ![Overlay Idle](images/overlay_idle_EN.png)
 ![Overlay Combat](images/overlay_combat_EN.png)
+![Classic Overlay](images/overlay_classic_EN.png)
 
 ### Character Detection
 
@@ -56,11 +59,17 @@ Press **F6** to reset stats — your current battle is automatically saved as a 
 
 ### Main Window & Damage ECG
 
-Full team damage contribution at a glance — character ranking panel + hit detail panel + damage ECG in a three-section layout. All data stored locally.
+Full team damage contribution at a glance — character ranking panel + skill-grouped damage detail panel (tri-lingual skill names) + damage ECG in a three-section layout. All data stored locally.
 
 The **Damage ECG** renders every hit as a real-time waveform. Wave colors reflect attack rhythm (green = rapid combos, gray = normal, red = burst gap). Character switch points are marked with avatar icons on the X-axis. Supports drag scrolling with inertia and Ctrl+scroll zoom.
 
 ![Main Window](images/main_window_EN.png)
+
+### Gacha History
+
+Passively captures in-game gacha history packets — character pool (Monopoly dice) and weapon pool (direct pull) auto-detected. View stats in a two-tier tabbed window with stat cards, item tables, and an S-rank pity distance map. Local recording is always on regardless of upload consent. Free feature.
+
+![Gacha History](images/gacha_log_EN.png)
 
 ### Report Comparison (Sponsor)
 
@@ -98,10 +107,12 @@ Live community data aggregated from uploaded battle reports:
 
 ### Additional Features
 
-- **YouTube Guide Search** — search character guides from the context menu with one click; plays in a floating window
+- **Video Search** — search character guides across platforms (YouTube / Bilibili / Niconico); plays in a floating window
 
 ![YouTube Search](images/youtube_search_EN.png)
 
+- **Gacha History** — passively records character and weapon pool pulls with pity map and fashion tracking
+- **Classic Overlay** — traditional raid meter panel, toggle from right-click menu
 - **Discord Account Linking** — link your Discord from the desktop app for analytics platform login and serial verification
 - **Hotkeys** — F6 reset, Alt+D overlay, Alt+E main window; fully customizable
 - **Network adapter selection** — manual switch for accelerator/VPN setups; ExitLag continuously supported
@@ -116,10 +127,12 @@ Live community data aggregated from uploaded battle reports:
 | Feature | Free | Sponsor |
 |---------|------|---------|
 | DPS Overlay | ✔ | ✔ |
+| Classic Overlay | ✔ | ✔ |
 | Character Detection | ✔ | ✔ |
 | Damage ECG | ✔ | ✔ |
 | Cultivation Guide | ✔ | ✔ |
-| YouTube Guide Search | ✔ | ✔ |
+| Gacha History | ✔ | ✔ |
+| Video Search | ✔ | ✔ |
 | Report Manager (save / filter / upload / delete) | ✔ | ✔ |
 | Hotkeys (overlay / reset, customizable) | ✔ | ✔ |
 | Network Adapter Selection | ✔ | ✔ |
@@ -128,6 +141,7 @@ Live community data aggregated from uploaded battle reports:
 | Personal Dashboard | — | ✔ |
 | Report Comparison (A/B side-by-side + ECG) | — | ✔ |
 | Character Pairing Matrix | — | ✔ |
+| Community Gacha Stats | — | ✔ |
 
 Sponsor keys are a thank-you reward for supporting development — not a subscription. Each key is valid for **30 days**. Free features are never restricted.
 
