@@ -63,7 +63,8 @@ Full team damage contribution at a glance — character ranking panel + skill-gr
 
 The **Damage ECG** renders every hit as a real-time waveform. Wave colors reflect attack rhythm (green = rapid combos, gray = normal, red = burst gap). Character switch points are marked with avatar icons on the X-axis. Supports drag scrolling with inertia and Ctrl+scroll zoom.
 
-![Main Window](images/main_window_EN.png)
+![Main Window](images/main_window_EN_v5.png)
+![Report Sidebar](images/mainwindows_report_list_v5.png)
 
 ### Gacha History
 
@@ -83,17 +84,17 @@ Analyze your battle history and track personal growth across four tabs. All data
 
 | | |
 |---|---|
-| ![Battle Overview](images/dashboard_BattleOverview.png) | ![Damage Growth](images/dashboard_DamageGrowth.png) |
+| ![Battle Overview](images/dashboard_BattleOverview.png) | ![Damage Growth](images/dashboard_DamageGrowth_v5.png) |
 | **Battle Overview** — total sessions, accumulated damage, most-used character, historical max, recent battles | **Damage Growth** — per-character damage trend curves, click avatars to toggle |
-| ![Appearance Stats](images/dashboard_AppearanceCount.png) | ![Stage Growth](images/dashboard_StageGrowth.png) |
+| ![Appearance Stats](images/dashboard_AppearanceCount_v5.png) | ![Stage Growth](images/dashboard_StageGrowth.png) |
 | **Appearance Stats** — character usage frequency | **Stage Growth** — per-stage damage progress curves |
 
 ### Cultivation Guide (Free)
 
 Material overview for 20 characters — breakthrough materials, skill upgrades (including passives), and bond gift strategies with three optimization modes.
 
-![Cultivation 1](images/char_grow_EN1.png)
-![Cultivation 2](images/char_grow_EN2.png)
+![Cultivation 1](images/char_grow_EN1_v5.png)
+![Cultivation 2](images/char_grow_EN2_v5.png)
 
 ### Community Analytics — [ntedpsmeter.com](https://ntedpsmeter.com)
 
@@ -109,7 +110,7 @@ Live community data aggregated from uploaded battle reports:
 
 - **Video Search** — search character guides across platforms (YouTube / Bilibili / Niconico); plays in a floating window
 
-![YouTube Search](images/youtube_search_EN.png)
+![YouTube Search](images/youtube_search_EN_v5.png)
 
 - **Gacha History** — passively records character and weapon pool pulls with pity map and fashion tracking
 - **Classic Overlay** — traditional raid meter panel, toggle from right-click menu
@@ -160,7 +161,7 @@ Sponsor keys are a thank-you reward for supporting development — not a subscri
 4. Press **F6** to reset and save battle report
 5. Right-click the overlay or system tray icon for the full menu
 
-![Context Menu](images/context_menu_EN.png)
+![Context Menu](images/context_menu_EN_v5.png)
 
 ### Default Hotkeys
 

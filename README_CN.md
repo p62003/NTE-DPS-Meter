@@ -63,7 +63,8 @@
 
 **伤害心电图**将每一次命中绘制为即时波形。波色反映施放节奏（绿=密集连招、灰=正常、红=空窗）。X 轴以角色头像标记切换时机。支持拖拽惯性滚动、Ctrl+滚轮缩放。
 
-![Main Window](images/main_window_EN.png)
+![Main Window](images/main_window_EN_v5.png)
+![Report Sidebar](images/mainwindows_report_list_v5.png)
 
 ### 抽卡记录统计
 
@@ -83,17 +84,17 @@ A/B 并排对比不同队伍配置，显示伤害与 DPS 差异摘要 + 整合 E
 
 | | |
 |---|---|
-| ![战斗总览](images/dashboard_BattleOverview.png) | ![伤害成长](images/dashboard_DamageGrowth.png) |
+| ![战斗总览](images/dashboard_BattleOverview.png) | ![伤害成长](images/dashboard_DamageGrowth_v5.png) |
 | **战斗总览** — 总场次、累积伤害、最常使用角色、历史最大伤害、最近战斗 | **伤害成长** — 各角色伤害趋势曲线，点击头像切换 |
-| ![出场统计](images/dashboard_AppearanceCount.png) | ![副本成长](images/dashboard_StageGrowth.png) |
+| ![出场统计](images/dashboard_AppearanceCount_v5.png) | ![副本成长](images/dashboard_StageGrowth.png) |
 | **出场统计** — 角色使用频率 | **副本成长** — 各关卡伤害进步曲线 |
 
 ### 角色养成引导（免费）
 
 20 角色养成素材一览 — 突破材料、技能升级（含被动）、好感度送礼三策略。
 
-![养成引导 1](images/char_grow_EN1.png)
-![养成引导 2](images/char_grow_EN2.png)
+![养成引导 1](images/char_grow_EN1_v5.png)
+![养成引导 2](images/char_grow_EN2_v5.png)
 
 ### 社群分析平台 — [ntedpsmeter.com](https://ntedpsmeter.com)
 
@@ -109,7 +110,7 @@ A/B 并排对比不同队伍配置，显示伤害与 DPS 差异摘要 + 整合 E
 
 - **影片搜索** — 右键菜单搜索当前角色相关影片（YouTube / Bilibili / Niconico），独立浮窗播放
 
-![YouTube 搜索](images/youtube_search_EN.png)
+![YouTube 搜索](images/youtube_search_EN_v5.png)
 
 - **抽卡记录** — 被动记录角色池与武器池抽卡历史，S级命中距离地图+时装统计
 - **Classic 浮窗** — 传统 raid meter 常驻面板，右键菜单切换
@@ -160,7 +161,7 @@ A/B 并排对比不同队伍配置，显示伤害与 DPS 差异摘要 + 整合 E
 4. 按 **F6** 重置并存档战报
 5. 右键浮窗或系统托盘图标打开完整菜单
 
-![Context Menu](images/context_menu_EN.png)
+![Context Menu](images/context_menu_EN_v5.png)
 
 ### 默认快捷键
 
