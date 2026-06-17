@@ -45,7 +45,7 @@
 
 ![Overlay Idle](images/overlay_idle_EN.png)
 ![Overlay Combat](images/overlay_combat_EN.png)
-![Classic Overlay](images/overlay_classic_EN.png)
+![Classic Overlay](images/overlay_classic_EN.png?v=510)
 
 ### 角色辨識
 
@@ -63,20 +63,20 @@
 
 **傷害心電圖**將每一次命中繪製為即時波形。波色反映施放節奏（綠=密集連招、灰=正常、紅=空窗）。X 軸以角色頭像標記切換時機。支援拖曳慣性滾動、Ctrl+滾輪縮放。
 
-![Main Window](images/main_window_EN_v5.png)
-![Report Sidebar](images/mainwindows_report_list_v5.png)
+![Main Window](images/main_window_EN_v5.png?v=510)
+![Report Sidebar](images/mainwindows_report_list_v5.png?v=510)
 
 ### 抽卡紀錄統計
 
 被動擷取遊戲抽卡歷史封包 — 角色池（大富翁擲骰）與武器池（直抽）自動識別。二層分頁視窗顯示統計泡泡、道具統計表與 S 級命中距離地圖。引擎層永遠記錄本地，不受上傳同意狀態影響。免費功能。
 
-![Gacha History](images/gacha_log_EN.png)
+![Gacha History](images/gacha_log_EN.png?v=510)
 
 ### 戰報比對（贊助者）
 
 A/B 並排對比不同隊伍配置，顯示傷害與 DPS 差異摘要 + 整合 ECG。
 
-![Compare Mode](images/compare_mode_EN.png)
+![Compare Mode](images/compare_mode_EN.png?v=510)
 
 ### 個人數據中心（贊助者）
 
@@ -84,7 +84,7 @@ A/B 並排對比不同隊伍配置，顯示傷害與 DPS 差異摘要 + 整合 E
 
 | | |
 |---|---|
-| ![戰鬥總覽](images/dashboard_BattleOverview.png) | ![傷害成長](images/dashboard_DamageGrowth_v5.png) |
+| ![戰鬥總覽](images/dashboard_BattleOverview.png?v=510) | ![傷害成長](images/dashboard_DamageGrowth_v5.png) |
 | **戰鬥總覽** — 英雄區角色大圖+覺醒背景，最大傷害/DPS/場數數據卡片，歷史傷害排行，近期戰報。角色頭像標籤切換 | **傷害成長** — 各角色傷害趨勢曲線，點擊頭像切換 |
 | ![出場統計](images/dashboard_AppearanceCount_v5.png) | ![副本成長](images/dashboard_StageGrowth.png) |
 | **出場統計** — 角色使用頻率 | **副本成長** — 各關卡傷害進步曲線 |
@@ -93,7 +93,7 @@ A/B 並排對比不同隊伍配置，顯示傷害與 DPS 差異摘要 + 整合 E
 
 20 角色養成素材一覽 — 突破材料、技能升級（含被動）、好感度送禮三策略。
 
-![養成引導](images/char_grow_EN_v5.png)
+![養成引導](images/char_grow_EN_v5.png?v=510)
 
 ### 社群分析平台 — [ntedpsmeter.com](https://ntedpsmeter.com)
 

@@ -45,7 +45,7 @@
 
 ![Overlay Idle](images/overlay_idle_EN.png)
 ![Overlay Combat](images/overlay_combat_EN.png)
-![Classic Overlay](images/overlay_classic_EN.png)
+![Classic Overlay](images/overlay_classic_EN.png?v=510)
 
 ### 角色识别
 
@@ -63,20 +63,20 @@
 
 **伤害心电图**将每一次命中绘制为即时波形。波色反映施放节奏（绿=密集连招、灰=正常、红=空窗）。X 轴以角色头像标记切换时机。支持拖拽惯性滚动、Ctrl+滚轮缩放。
 
-![Main Window](images/main_window_EN_v5.png)
-![Report Sidebar](images/mainwindows_report_list_v5.png)
+![Main Window](images/main_window_EN_v5.png?v=510)
+![Report Sidebar](images/mainwindows_report_list_v5.png?v=510)
 
 ### 抽卡记录统计
 
 被动撷取游戏抽卡历史封包 — 角色池（大富翁掷骰）与武器池（直抽）自动识别。二层分页窗口显示统计泡泡、道具统计表与 S 级命中距离地图。引擎层永远记录本地，不受上传同意状态影响。免费功能。
 
-![Gacha History](images/gacha_log_EN.png)
+![Gacha History](images/gacha_log_EN.png?v=510)
 
 ### 战报对比（赞助者）
 
 A/B 并排对比不同队伍配置，显示伤害与 DPS 差异摘要 + 整合 ECG。
 
-![Compare Mode](images/compare_mode_EN.png)
+![Compare Mode](images/compare_mode_EN.png?v=510)
 
 ### 个人数据中心（赞助者）
 
@@ -84,7 +84,7 @@ A/B 并排对比不同队伍配置，显示伤害与 DPS 差异摘要 + 整合 E
 
 | | |
 |---|---|
-| ![战斗总览](images/dashboard_BattleOverview.png) | ![伤害成长](images/dashboard_DamageGrowth_v5.png) |
+| ![战斗总览](images/dashboard_BattleOverview.png?v=510) | ![伤害成长](images/dashboard_DamageGrowth_v5.png) |
 | **战斗总览** — 英雄区角色大图+觉醒背景，最大伤害/DPS/场数数据卡片，历史伤害排行，近期战报。角色头像标签切换 | **伤害成长** — 各角色伤害趋势曲线，点击头像切换 |
 | ![出场统计](images/dashboard_AppearanceCount_v5.png) | ![副本成长](images/dashboard_StageGrowth.png) |
 | **出场统计** — 角色使用频率 | **副本成长** — 各关卡伤害进步曲线 |
@@ -93,7 +93,7 @@ A/B 并排对比不同队伍配置，显示伤害与 DPS 差异摘要 + 整合 E
 
 20 角色养成素材一览 — 突破材料、技能升级（含被动）、好感度送礼三策略。
 
-![养成引导](images/char_grow_EN_v5.png)
+![养成引导](images/char_grow_EN_v5.png?v=510)
 
 ### 社群分析平台 — [ntedpsmeter.com](https://ntedpsmeter.com)
 

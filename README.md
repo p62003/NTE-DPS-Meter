@@ -45,7 +45,7 @@ Always-on-top transparent card with 3-row layout (Damage + bar / Hits + bar / EC
 
 ![Overlay Idle](images/overlay_idle_EN.png)
 ![Overlay Combat](images/overlay_combat_EN.png)
-![Classic Overlay](images/overlay_classic_EN.png)
+![Classic Overlay](images/overlay_classic_EN.png?v=510)
 
 ### Character Detection
 
@@ -63,20 +63,20 @@ Full team damage contribution at a glance — character ranking panel + skill-gr
 
 The **Damage ECG** renders every hit as a real-time waveform. Wave colors reflect attack rhythm (green = rapid combos, gray = normal, red = burst gap). Character switch points are marked with avatar icons on the X-axis. Supports drag scrolling with inertia and Ctrl+scroll zoom.
 
-![Main Window](images/main_window_EN_v5.png)
-![Report Sidebar](images/mainwindows_report_list_v5.png)
+![Main Window](images/main_window_EN_v5.png?v=510)
+![Report Sidebar](images/mainwindows_report_list_v5.png?v=510)
 
 ### Gacha History
 
 Passively captures in-game gacha history packets — character pool (Monopoly dice) and weapon pool (direct pull) auto-detected. View stats in a two-tier tabbed window with stat cards, item tables, and an S-rank pity distance map. Local recording is always on regardless of upload consent. Free feature.
 
-![Gacha History](images/gacha_log_EN.png)
+![Gacha History](images/gacha_log_EN.png?v=510)
 
 ### Report Comparison (Sponsor)
 
 Side-by-side A/B comparison of different team compositions with damage and DPS difference summary + integrated ECG.
 
-![Compare Mode](images/compare_mode_EN.png)
+![Compare Mode](images/compare_mode_EN.png?v=510)
 
 ### Personal Dashboard (Sponsor)
 
@@ -84,7 +84,7 @@ Analyze your battle history and track personal growth across four tabs. All data
 
 | | |
 |---|---|
-| ![Battle Overview](images/dashboard_BattleOverview.png) | ![Damage Growth](images/dashboard_DamageGrowth_v5.png) |
+| ![Battle Overview](images/dashboard_BattleOverview.png?v=510) | ![Damage Growth](images/dashboard_DamageGrowth_v5.png) |
 | **Battle Overview** — hero area with full-body character art + awakening background, max damage/DPS/fights data cards, damage history table, recent fights. Click character avatar tabs to switch. | **Damage Growth** — per-character damage trend curves, click avatars to toggle |
 | ![Appearance Stats](images/dashboard_AppearanceCount_v5.png) | ![Stage Growth](images/dashboard_StageGrowth.png) |
 | **Appearance Stats** — character usage frequency | **Stage Growth** — per-stage damage progress curves |
@@ -93,7 +93,7 @@ Analyze your battle history and track personal growth across four tabs. All data
 
 Material overview for 20 characters — breakthrough materials, skill upgrades (including passives), and bond gift strategies with three optimization modes.
 
-![Cultivation](images/char_grow_EN_v5.png)
+![Cultivation](images/char_grow_EN_v5.png?v=510)
 
 ### Community Analytics — [ntedpsmeter.com](https://ntedpsmeter.com)
 
