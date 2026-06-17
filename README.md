@@ -41,7 +41,7 @@ If you donate over $6 USD, please let us know — we'd like to offer you a Spons
 
 Always-on-top transparent card with 3-row layout (Damage + bar / Hits + bar / ECT | HPS | DPS), game-style sprite font + metallic text rendering, and full party rows showing all active characters with damage and team share. Auto-expands during combat, auto-collapses after 5 seconds idle. Click-through during combat — zero interference with gameplay.
 
-**Classic Overlay** — A traditional raid meter style persistent panel. Rank + circular avatar + character name + total damage (K/M) + share % + DPS per row. Character-colored damage bars at low opacity. No animations — always visible. Toggle from the right-click menu. Free feature.
+**Classic Overlay** — A traditional raid meter style persistent panel with game-style three-layer border. Header row (Name / Damage / Share / DPS) + rank + circular avatar + character name (i18n) + total damage (K/M) + share % + DPS per row. Normal/Mini dual size. Character-colored damage bars at low opacity. No animations — always visible. Submenu toggle from right-click menu. Free feature.
 
 ![Overlay Idle](images/overlay_idle_EN.png)
 ![Overlay Combat](images/overlay_combat_EN.png)
@@ -85,7 +85,7 @@ Analyze your battle history and track personal growth across four tabs. All data
 | | |
 |---|---|
 | ![Battle Overview](images/dashboard_BattleOverview.png) | ![Damage Growth](images/dashboard_DamageGrowth_v5.png) |
-| **Battle Overview** — total sessions, accumulated damage, most-used character, historical max, recent battles | **Damage Growth** — per-character damage trend curves, click avatars to toggle |
+| **Battle Overview** — hero area with full-body character art + awakening background, max damage/DPS/fights data cards, damage history table, recent fights. Click character avatar tabs to switch. | **Damage Growth** — per-character damage trend curves, click avatars to toggle |
 | ![Appearance Stats](images/dashboard_AppearanceCount_v5.png) | ![Stage Growth](images/dashboard_StageGrowth.png) |
 | **Appearance Stats** — character usage frequency | **Stage Growth** — per-stage damage progress curves |
 
@@ -93,14 +93,14 @@ Analyze your battle history and track personal growth across four tabs. All data
 
 Material overview for 20 characters — breakthrough materials, skill upgrades (including passives), and bond gift strategies with three optimization modes.
 
-![Cultivation 1](images/char_grow_EN1_v5.png)
-![Cultivation 2](images/char_grow_EN2_v5.png)
+![Cultivation](images/char_grow_EN_v5.png)
 
 ### Community Analytics — [ntedpsmeter.com](https://ntedpsmeter.com)
 
 Live community data aggregated from uploaded battle reports:
 
-- **Character Rankings** — damage rankings by tier (1min / 3min / 6min / 9min), showing median + max + range
+- **Character Rankings** — mixed leaderboard by tier (1min / 3min / 6min) + per-character top 50 leaderboard with avatar tag switching. #1 golden glow + name shimmer effects
+- **Luck Leaderboard** — S-rank average pity distance ranking across three categories (limited character / standard character / weapon pool). Minimum 2 S-rank hits required (Sponsor)
 - **Character Pairing Matrix** — visual heatmap of character combination adoption rates (Sponsor)
 - **Discord Login** — log in with Discord; sponsors can verify serial keys directly on the web
 - **Tri-lingual** — EN / 繁體中文 / 简体中文
@@ -113,7 +113,7 @@ Live community data aggregated from uploaded battle reports:
 ![YouTube Search](images/youtube_search_EN_v5.png)
 
 - **Gacha History** — passively records character and weapon pool pulls with pity map and fashion tracking
-- **Classic Overlay** — traditional raid meter panel, toggle from right-click menu
+- **Classic Overlay** — traditional raid meter panel with game-style border, header row, Normal/Mini sizes; submenu toggle from right-click menu
 - **Discord Account Linking** — link your Discord from the desktop app for analytics platform login and serial verification
 - **Hotkeys** — F6 reset, Alt+D overlay, Alt+E main window; fully customizable
 - **Network adapter selection** — manual switch for accelerator/VPN setups; ExitLag continuously supported

@@ -41,7 +41,7 @@
 
 置顶透明卡片，三行式布局（伤害+量条 / 命中+量条 / ECT|HPS|DPS），游戏风格数字字体 + 金属色文字，全队简化列显示所有出场角色伤害与占比。战斗时自动展开，5 秒无命中自动收回。战斗中鼠标自动穿透，不影响游戏操作。
 
-**Classic 浮窗** — 传统 raid meter 风格常驻面板。每列排名+圆形头像+角色名+总伤(K/M)+占比%+DPS。角色色低透明度占比填充条。无动画、持续可见。右键菜单切换。免费功能。
+**Classic 浮窗** — 传统 raid meter 风格常驻面板，游戏风格三层边框。标题列（名称/伤害/占比/DPS）+ 排名+圆形头像+角色名（三语）+总伤(K/M)+占比%+DPS。Normal/Mini 双尺寸。角色色低透明度占比填充条。无动画、持续可见。右键子菜单切换。免费功能。
 
 ![Overlay Idle](images/overlay_idle_EN.png)
 ![Overlay Combat](images/overlay_combat_EN.png)
@@ -85,7 +85,7 @@ A/B 并排对比不同队伍配置，显示伤害与 DPS 差异摘要 + 整合 E
 | | |
 |---|---|
 | ![战斗总览](images/dashboard_BattleOverview.png) | ![伤害成长](images/dashboard_DamageGrowth_v5.png) |
-| **战斗总览** — 总场次、累积伤害、最常使用角色、历史最大伤害、最近战斗 | **伤害成长** — 各角色伤害趋势曲线，点击头像切换 |
+| **战斗总览** — 英雄区角色大图+觉醒背景，最大伤害/DPS/场数数据卡片，历史伤害排行，近期战报。角色头像标签切换 | **伤害成长** — 各角色伤害趋势曲线，点击头像切换 |
 | ![出场统计](images/dashboard_AppearanceCount_v5.png) | ![副本成长](images/dashboard_StageGrowth.png) |
 | **出场统计** — 角色使用频率 | **副本成长** — 各关卡伤害进步曲线 |
 
@@ -93,14 +93,14 @@ A/B 并排对比不同队伍配置，显示伤害与 DPS 差异摘要 + 整合 E
 
 20 角色养成素材一览 — 突破材料、技能升级（含被动）、好感度送礼三策略。
 
-![养成引导 1](images/char_grow_EN1_v5.png)
-![养成引导 2](images/char_grow_EN2_v5.png)
+![养成引导](images/char_grow_EN_v5.png)
 
 ### 社群分析平台 — [ntedpsmeter.com](https://ntedpsmeter.com)
 
 汇集社群上传的战斗数据：
 
-- **角色伤害排行榜** — 依战斗时长分 Tier（1min / 3min / 6min / 9min），显示中位数 + 最大值 + 区间
+- **角色伤害排行榜** — 依战斗时长分 Tier（1min / 3min / 6min）+ 角色独立榜 Top 50，头像标签切换。#1 金色脉动+流光效果
+- **幸运榜** — S 级平均命中距离排行，三分类（限定角色/常驻角色/武器池），门槛 ≥ 2 次 S 级命中（赞助者限定）
 - **角色配对矩阵** — 可视化角色搭配采用率热力图（赞助者限定）
 - **Discord 登录** — 用 Discord 帐号登录网页端，赞助者可直接验证序号
 - **三语网站** — EN / 繁體中文 / 简体中文
@@ -113,7 +113,7 @@ A/B 并排对比不同队伍配置，显示伤害与 DPS 差异摘要 + 整合 E
 ![YouTube 搜索](images/youtube_search_EN_v5.png)
 
 - **抽卡记录** — 被动记录角色池与武器池抽卡历史，S级命中距离地图+时装统计
-- **Classic 浮窗** — 传统 raid meter 常驻面板，右键菜单切换
+- **Classic 浮窗** — 传统 raid meter 常驻面板，游戏风格边框、标题列、Normal/Mini 双尺寸；右键子菜单切换
 - **Discord 帐号连结** — 从桌面端一键连结 Discord，用于分析平台登录与序号验证
 - **快捷键** — F6 重置、Alt+D 浮窗、Alt+E 主窗口；可完全自定义
 - **网卡选择** — 手动切换网络接口，适用加速器/VPN 环境；持续支持 ExitLag
