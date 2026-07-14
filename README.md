@@ -49,17 +49,17 @@ Always-on-top transparent card with 3-row layout (Damage + bar / Hits + bar / EC
 
 ### Character Detection
 
-Automatically identifies the active character in real time. Supports all released characters with per-character independent damage tracking across your 4-character party.
+Automatically identifies the active character in real time. Supports all released characters with per-character independent damage tracking across your 4-character party. Also automatically detects the game mode (Dangerous Commissions / Abyss Circuit / Anomaly Pilgrimage / Hunt / 999 Nights), logging it in the battle report with a dedicated icon.
 
 ### Battle Reports & Report Manager
 
-Press **F6** to reset stats — your current battle is automatically saved as a report. Open the Report Manager from the right-click menu to filter by damage range, sort, upload to the community platform, or delete old reports.
+Press **F6** to reset stats — your current battle is automatically saved as a report. Open the Report Manager from the right-click menu to filter by damage range and character/target grouping, sort, upload to the community platform, or delete old reports. Reports are automatically uploaded in the background after saving (always on for free users; sponsors can toggle it).
 
 ![Report Manager](images/report_manager_EN.png)
 
 ### Main Window & Damage ECG
 
-Full team damage contribution at a glance — character ranking panel + skill-grouped damage detail panel (tri-lingual skill names) + damage ECG in a three-section layout. All data stored locally.
+Full team damage contribution at a glance — character ranking panel + combat detail panel ("Cast / Hit" dual tabs: skill grouping and per-hit breakdown) + damage ECG in a three-section layout. All data stored locally.
 
 The **Damage ECG** renders every hit as a real-time waveform. Wave colors reflect attack rhythm (green = rapid combos, gray = normal, red = burst gap). Character switch points are marked with avatar icons on the X-axis. Supports drag scrolling with inertia and Ctrl+scroll zoom.
 
@@ -103,6 +103,7 @@ Live community data aggregated from uploaded battle reports:
 - **Luck Leaderboard** — S-rank average pity distance ranking across three categories (limited character / standard character / weapon pool). Minimum 2 S-rank hits required (Sponsor)
 - **Character Pairing Matrix** — visual heatmap of character combination adoption rates (Sponsor)
 - **Discord Login** — log in with Discord; sponsors can verify serial keys directly on the web
+- **Sponsorship Purchase** — overseas users can self-sponsor via PayPal / Ko-fi at [ntedpsmeter.com/purchase](https://ntedpsmeter.com/purchase); serial keys are emailed automatically after payment (6 / 11 / 15 USD for 30 / 60 / 90 days). Taiwan users please contact us on Discord
 - **Tri-lingual** — EN / 繁體中文 / 简体中文
 - **Privacy-friendly** — explicit consent required before upload, data is anonymized
 
@@ -114,7 +115,10 @@ Live community data aggregated from uploaded battle reports:
 
 - **Gacha History** — passively records character and weapon pool pulls with pity map and fashion tracking
 - **Classic Overlay** — traditional raid meter panel with game-style border, header row, Normal/Mini sizes; submenu toggle from right-click menu
-- **Discord Account Linking** — link your Discord from the desktop app for analytics platform login and serial verification
+- **All-User Discord Login** — both free and sponsor users complete a one-time Discord login on startup (already-linked users are unaffected), binding the serial to its owner to prevent misuse
+- **Auto Report Upload** — battle reports are automatically uploaded in the background after saving; always on for free users, toggleable for sponsors
+- **Notification Dots** — a red dot guides you to the relevant feature when a new report is saved or a new version is available
+- **First-Launch Language Detection** — the interface language is auto-selected based on your Windows system locale; a manual change is preserved thereafter
 - **Hotkeys** — F6 reset, Alt+D overlay, Alt+E main window; fully customizable
 - **Network adapter selection** — manual switch for accelerator/VPN setups; ExitLag continuously supported
 - **Tri-lingual interface** — 繁體中文 / 简体中文 / English (dropdown selection or right-click menu cycle)
@@ -135,6 +139,7 @@ Live community data aggregated from uploaded battle reports:
 | Gacha History | ✔ | ✔ |
 | Video Search | ✔ | ✔ |
 | Report Manager (save / filter / upload / delete) | ✔ | ✔ |
+| Auto Report Upload | ✔ | ✔ (toggleable) |
 | Hotkeys (overlay / reset, customizable) | ✔ | ✔ |
 | Network Adapter Selection | ✔ | ✔ |
 | Community Rankings | ✔ | ✔ |
