@@ -121,7 +121,7 @@ Live community data aggregated from uploaded battle reports:
 - **First-Launch Language Detection** — the interface language is auto-selected based on your Windows system locale; a manual change is preserved thereafter
 - **Hotkeys** — F6 reset, Alt+D overlay, Alt+E main window; fully customizable
 - **Network adapter selection** — manual switch for accelerator/VPN setups; ExitLag continuously supported
-- **Tri-lingual interface** — 繁體中文 / 简体中文 / English (dropdown selection or right-click menu cycle)
+- **Quad-lingual interface** — 繁體中文 / 简体中文 / English / 日本語 (dropdown selection or right-click menu cycle)
 - **System tray resident** — runs quietly, no taskbar clutter
 - **Auto-updater** — check for updates from the right-click menu
 
@@ -149,7 +149,7 @@ Live community data aggregated from uploaded battle reports:
 | Character Pairing Matrix | — | ✔ |
 | Community Gacha Stats | — | ✔ |
 
-Sponsor keys are a thank-you reward for supporting development — not a subscription. Each key is valid for **30 days**. Free features are never restricted.
+Sponsor keys are a thank-you reward for supporting development — not a subscription. Serial keys are valid for **30 / 60 / 90 days** depending on tier. Free features are never restricted.
 
 ---
 
