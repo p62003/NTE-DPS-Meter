@@ -1,4 +1,4 @@
-**[English](README.md)** | **繁體中文** | **[简体中文](README_CN.md)**
+**[English](README.md)** | **繁體中文** | **[简体中文](README_CN.md)** | **[日本語](README_JA.md)**
 
 # NTE DPS Meter
 
