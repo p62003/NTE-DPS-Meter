@@ -102,9 +102,10 @@ Live community data aggregated from uploaded battle reports:
 - **Character Rankings** — mixed leaderboard by tier (1min / 3min / 6min) + per-character top 50 leaderboard with avatar tag switching. #1 golden glow + name shimmer effects
 - **Luck Leaderboard** — S-rank average pity distance ranking across three categories (limited character / standard character / weapon pool). Minimum 2 S-rank hits required (Sponsor)
 - **Character Pairing Matrix** — visual heatmap of character combination adoption rates (Sponsor)
+- **Simple Tools — Team Builder** — free, no login: tap character cards to fill four slots and see which of the 8 Esper Cycle reactions your team covers
 - **Discord Login** — log in with Discord; sponsors can verify serial keys directly on the web
 - **Sponsorship Purchase** — overseas users can self-sponsor via PayPal / Ko-fi at [ntedpsmeter.com/purchase](https://ntedpsmeter.com/purchase); serial keys are emailed automatically after payment (6 / 11 / 15 USD for 30 / 60 / 90 days). Taiwan users please contact us on Discord
-- **Tri-lingual** — EN / 繁體中文 / 简体中文
+- **Five languages** — EN / 繁體中文 / 简体中文 / 日本語 / 한국어
 - **Privacy-friendly** — explicit consent required before upload, data is anonymized
 
 ### Additional Features

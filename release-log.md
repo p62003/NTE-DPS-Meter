@@ -1,83 +1,55 @@
 # Changelog
 
-## v6.1 — July 17, 2026
+## v6.2 — July 30, 2026
 
 <details>
 
 <summary>English</summary>
 
-### New Feature: Trigger-Type Bonus Damage Now Counted
+This desktop release is a **game-data and icon update** — no engine or interface changes. Alongside it, the community site (ntedpsmeter.com) adds a **Team Builder**, available right now with no app update needed.
 
-Numbers popping on screen while DPS records nothing — this class of "trigger-type bonus damage" travels in a packet form that was previously unrecognizable. This version adds full support.
+### New Feature: Team Builder (Community Site, Free)
 
-- **Shinku's "Instant Strike"** (the bonus hit triggered by her Watch stance) was never counted before; now every hit (including crits) is counted into DPS and report skill details in real time, verified value-by-value against recorded data (1:1 with on-screen numbers).
-- Recognition is a generic mechanism, not tied to a specific character — same-type trigger damage from other characters is supported automatically as long as it uses the same form.
-- Fixed occasional misses for these events.
-- 999 Nights is guarded so the same damage is never double-counted.
-- If you find other skills where the screen shows numbers but DPS doesn't, please report them.
-
----
-
-### New Feature: Japanese Interface
-
-- The interface now supports Japanese (full UI translation; mode names use the game's official Japanese terms), auto-selected on first launch when your OS language is Japanese.
-- Data names completed with official Japanese: session/boss display names, cultivation materials, bond gifts and their shop names, gacha items and pool names, 999 Nights accessory effects.
-- Japanese character names expanded to 35; characters not yet released in-game show English for now.
+- ntedpsmeter.com adds a **Simple Tools** tab, and the first tool is the **Team Builder**: free, no sign-in, nothing to upload.
+- Tap a character card below to fill the next of the four slots above, and the 8 Esper Cycle reactions (6 two-element + 2 three-element) update instantly: available ones are pinned and highlighted, unavailable ones stay greyed out so you can see at a glance which element you're missing.
+- Reaction names and descriptions come from the game's official data.
+- The page states its limits plainly: **it judges element coverage only** — whether a reaction actually lands still depends on your rotation triggering Esper Cycle.
+- The four team slots use round portraits while the roster below keeps full-body art; on phones the slots switch to a 2×2 layout.
 
 ---
 
-### New Feature: New Abyss Circle
+### Improvement: Skill Names Corrected and Completed
 
-- Added recognition for **Blazing Circle**; **Cresting Circle** and **Waxing Circle** are pre-registered and will be supported automatically once the game opens them.
-
----
-
-### Improvement: Official Esper Resonance Names
-
-- Elemental reaction names in skill details now use the game's official terms: Superconduct → **Hexed**, Vaporize → **Nova**, Melt → **Stain**; the English label for stagger damage is now the official **Break**.
-- 59 reaction entries that used to show internal-looking codes now display proper official names — the "4_new" you may have seen is Nova, and "5_new" is Scorch.
-
----
-
-### Improvement: Skill Label Fixes
-
-- Shinku's Watch-related damage labels are renamed to "Instant Strike."
-- A full scan fixed 17 more mislabeled damage entries across Kuhara, Yi, Lacrimosa, Baicang, Mint, Shinku, Nanally, and Chaos (official terms in all four languages).
+- **Daffodill's** combat details previously showed internal codes for every entry. 54 of her 76 entries are now named: all five basic-attack stages show their own official names (Still Waters / Light Prism / Mirror on Water / Displaced Edge / Crosshair Lock), plus her Redirect Skills (Resonance / Echoes), her ultimate "Finale," her Critical Riposte, and her QTE.
+- The bonus true damage derived from her ultimate, "Insight" (triggered when the target enters Break), is now named in all four languages.
+- **83 existing skill names were upgraded from short names to full official stage names.** Many of these entries used to share one name; each stage now carries its own:
+  - Jiuyuan's first basic attack goes from "When Secrets Take Shape" to "Basic Attack: When Secrets Take Shape"; the second stage used to show that same name and now shows its own, "Basic Attack: Bird's Eye View."
+  - Several of Adler's entries all shared "Deliverance" and now read "Basic Attack: Ignorance," "Basic Attack: Liberation," and "Critical Riposte: Revelation."
+  - Lacrimosa's basic attacks shared "Sweet and Sour" and are now "Basic Attack: Tomato Percussion" and "Basic Attack: Tomato Metal."
+- **You will see some existing skill names get longer or change wording — these are corrections, not mistakes.**
 
 ---
 
-### Improvement: Discord Login & Serial
+### Improvement: Icons and Character Art Completed
 
-- Discord login verification upgraded: users who logged in with the early method will be asked to log in again once at startup (one click; serials and data are unaffected).
-- Serial activation adds "in use" self-healing: if a seat was left stuck by a previous session, it is reclaimed and retried automatically — no more contacting the admin.
-- Activation errors now distinguish "revoked" serials (refunded payments).
-
----
-
-### Improvement: Upload Consent
-
-- Consent is now version-stamped: your existing consent carries over automatically; you'll only be asked again when the terms change.
-- The consent checkbox in the announcement window can be toggled anytime, taking effect immediately.
+- **70 icons** across bond gifts, cultivation materials, and gacha items previously fell back to a placeholder; all are filled in this version. Re-checked with zero missing across all three categories (81 cultivation materials, 107 bond gifts, 71 gacha items).
+- Added **Iroi's** character art and awakening background (missing since the character was released).
 
 ---
 
 ### Improvement: Game Data Update
 
-- Skill-name table updated to the latest game version; character cultivation coin costs adjusted down to official values.
+- Skill-name table updated to the latest game version.
+- Chaos gains a new preferred gift, "Firework Seafood Paella."
+- One cultivation material's English name corrected to match official (Dress Sleeves of Vanity → Dress Hem of Vanity).
 
 ---
 
-### Fix: Updater
+### Improvement: Other Community Site Updates
 
-- Missing files or a failed updater launch no longer clears the "new version" badge; canceling or closing the updater early restores it.
-- When the updater asks the main app to close, it now performs a proper shutdown handoff instead of minimizing to the tray.
-- Fixed a possible timeout during the update handoff.
-
----
-
-### Fix: Misc
-
-- Various internal stability fixes.
+- Some character names now use the game's official English: Sagiri → **Sakiri**, Mitsuki → **Aurelia**, Zero M／F → **Zero (M)／(F)**; four more characters gained proper Traditional Chinese names. Rankings, Compositions, and Gacha pages are all aligned.
+- The gacha statistics page now shows icons for Iroi's three outfits (Summer Dream / Skyrider - Glider / Hidden Dragon - Livery).
+- The site switched to cookie-free traffic statistics.
 
 </details>
 
@@ -85,78 +57,50 @@ Numbers popping on screen while DPS records nothing — this class of "trigger-t
 
 <summary>繁體中文</summary>
 
-### 新功能：觸發型附帶傷害入統計
+本版桌面端為**遊戲資料與圖示更新**，不含引擎或介面變更；同期社群平台（ntedpsmeter.com）新增「隊伍搭配器」，網站即時可用、桌面端不需更新。
 
-畫面有跳數字、DPS 卻沒有記錄——這類「觸發型附帶傷害」走一種過去無法識別的封包形式，本版新增完整支援。
+### 新功能：隊伍搭配器（社群平台，免費開放）
 
-- **真紅「即瞬猛襲」**（威懾凝視觸發的附帶一擊）過去從未被統計；現在每一擊（含爆擊）即時計入 DPS 與戰報技能明細，並以實錄資料逐值驗證（與畫面數字 1:1）。
-- 識別為通用機制、不綁定特定角色——其他角色的同類型觸發傷害，只要走同一形式即自動支援。
-- 修復此類事件偶發漏抓的問題。
-- 999 夜同步加上防護，確保同一筆傷害不會被重複計算。
-- 若你發現其他「畫面有數字、DPS 沒有」的技能，歡迎回報。
-
----
-
-### 新功能：日本語介面
-
-- 介面新增日本語（全介面翻譯，模式名稱採遊戲官方日文詞）；作業系統語系為日文時，首次啟動自動選用。
-- 資料名全面補齊官方日文：關卡與 Boss 顯示名、養成材料、好感度禮物與入手商店名、抽卡道具與卡池名、999 夜飾品效果名。
-- 角色日文名擴充至 35 名；遊戲尚未實裝的角色暫顯英文。
+- ntedpsmeter.com 新增「簡易工具」分頁，第一個工具是**隊伍搭配器**：免費、不需登入、不需上傳戰報。
+- 點下方角色卡即填入上方四格，即時列出 8 種異能環合反應（6 種雙元素＋2 種三元素）的覆蓋狀況：可觸發的置頂高亮，未觸發的保持灰態，一眼看出還差哪個元素。
+- 反應名稱與說明取自遊戲官方資料。
+- 頁面明示判定範圍：**僅依元素覆蓋判定**，實戰打不打得出反應，還要看你的循環有沒有真的觸發異能環合。
+- 隊伍四格採圓形大頭貼、下方角色列維持全身立繪；手機版四格改 2×2 排列。
 
 ---
 
-### 新功能：軌外之境新環線
+### 改善：技能名正名與補齊
 
-- 新增「燎原環線」識別；「浪湧環線」與「月恆環線」一併預先登記，遊戲開放即自動支援。
-
----
-
-### 改善：異能環合反應正名
-
-- 技能明細的元素反應名改用遊戲官方詞：超導→**覆紋**、蒸發→**黯星**、融化→**浸染**；傾陷的英文顯示改為官方詞 **Break**。
-- 59 筆原本顯示代號的反應條目補上官方名——明細中曾出現的「4_new」即黯星、「5_new」即濁燃。
-
----
-
-### 改善：技能標籤正名
-
-- 真紅「威懾凝視」相關傷害標籤正名為「即瞬猛襲」。
-- 全量掃描後再修 17 筆同型標籤：九原「致約清算」「風聲為我所用」「知曉每一條秘密」、翳「獸牙影刺」、安魂曲「惡夢」「風味變奏」、白藏「適度上班」、薄荷「極限反擊：焦糖脆片」、真紅「獨行」、娜娜莉「絕對『公正』的決鬥」「要叫大姐頭」、卡厄斯「未遲到的正義」（四語皆採官方詞）。
+- **達芙蒂爾**的戰鬥細節此前全部顯示內部代號，本版 76 個條目中 54 個具名：五段普攻各自顯示官方分段名（止水／分光／臨水照影／錯位鋒芒／十字確認）、變軌技能（同振／如響斯應）、大招「見此終幕」、極限反擊與 QTE 全部到位。
+- 大招衍生的「洞察」額外真實傷害（目標進入傾陷時觸發）補上四語名稱。
+- **83 筆既有技能名由短名升級為官方分段全名。** 這些條目過去多筆共用同一個名字，現在各段各自正名：
+  - 九原第一段普攻由「秘密成型時」改為「普通攻擊：秘密成型時」；第二段此前顯示的是同一個名字，現在改為它真正的分段名「普通攻擊：俯瞰全局」。
+  - 阿德勒多筆條目此前共用「渡惡」，現在分別顯示「普通攻擊：無明」「普通攻擊：滅苦」「極限反擊：揭諦」。
+  - 安魂曲的普攻此前共用「酸甜口味的制裁」，現已正名為「普通攻擊：茄汁打擊樂」「普通攻擊：茄汁金屬樂」。
+- **你會看到部分既有技能名變長或改字——這是正名，不是誤植。**
 
 ---
 
-### 改善：Discord 登入與序號
+### 改善：圖示與立繪補齊
 
-- Discord 登入驗證升級：早期方式登入的用戶，啟動時會被要求重新登入一次（點登入即完成，序號與資料不受影響）。
-- 序號啟用新增「使用中」自癒：席位卡在前次未正常釋放時，自動回收並重試，不再需要聯繫管理員。
-- 序號啟用錯誤新增「已撤銷」提示（付款遭退款的序號）。
-
----
-
-### 改善：上傳同意
-
-- 上傳同意改為版本化記錄：已勾選的同意自動沿用，未來條款更新時才會重新徵求一次。
-- 公告視窗的同意勾選隨時可勾選或取消，變更即時生效。
+- 好感度禮物、養成材料、抽卡道具共 **70 個圖示**此前顯示佔位圖，本版一次補齊；三類複驗零缺圖（養成材料 81 項、好感度禮物 107 項、抽卡道具 71 項）。
+- 補上**伊洛伊**的角色立繪與覺醒背景（該角色上線以來一直缺）。
 
 ---
 
 ### 改善：遊戲資料更新
 
-- 技能名對照表更新至最新遊戲版本；角色養成金幣消耗依官方新數值下修。
+- 技能名對照表更新至最新遊戲版本。
+- 卡厄斯新增偏好禮物「焰火海鮮飯」。
+- 一筆養成材料的英文名依官方修正（Dress Sleeves of Vanity → Dress Hem of Vanity）。
 
 ---
 
-### 修正：更新器
+### 改善：社群平台其他更新
 
-- 更新器缺檔或啟動失敗時，不再誤清「有新版本」提示；取消或提早關閉更新器後，提示會恢復。
-- 更新器要求關閉主程式時，改為正常關閉交接，不再誤縮到系統匣。
-- 修正更新交接期間可能逾時的問題。
-
----
-
-### 修正：其他
-
-- 多項內部穩定性修正。
+- 部分角色英文名改用遊戲官方版：早霧 Sagiri → **Sakiri**、海月 Mitsuki → **Aurelia**、主角 Zero M／F → **Zero (M)／(F)**；另補上四名角色的繁體中文名。排行、配對、抽卡各頁一併對齊。
+- 抽卡統計頁補上伊洛伊三件時裝的圖示（夏日夢／天際獵手-滑翔翼／赤炎龍影-塗裝）。
+- 網站改用無 cookie 的流量統計。
 
 </details>
 
@@ -164,78 +108,50 @@ Numbers popping on screen while DPS records nothing — this class of "trigger-t
 
 <summary>简体中文</summary>
 
-### 新功能：触发型附带伤害入统计
+本版桌面端为**游戏数据与图标更新**，不含引擎或接口变更；同期社群平台（ntedpsmeter.com）添加「队伍搭配器」，网站即时可用、桌面端不需更新。
 
-画面有跳数字、DPS 却没有记录——这类「触发型附带伤害」走一种过去无法识别的封包形式，本版添加完整支持。
+### 新功能：队伍搭配器（社群平台，免费开放）
 
-- **真红「即瞬猛袭」**（威慑凝视触发的附带一击）过去从未被统计；现在每一击（含爆击）即时计入 DPS 与战报技能明细，并以实录数据逐值验证（与画面数字 1:1）。
-- 识别为通用机制、不绑定特定角色——其他角色的同类型触发伤害，只要走同一形式即自动支持。
-- 修复此类事件偶发漏抓的问题。
-- 999 夜同步加上防护，确保同一笔伤害不会被重复计算。
-- 若你发现其他「画面有数字、DPS 没有」的技能，欢迎回报。
-
----
-
-### 新功能：日本语接口
-
-- 接口添加日本语（全接口翻译，模式名称采游戏官方日文词）；操作系统语系为日文时，首次启动自动选用。
-- 数据名全面补齐官方日文：关卡与 Boss 显示名、养成材料、好感度礼物与入手商店名、抽卡道具与卡池名、999 夜饰品效果名。
-- 角色日文名扩充至 35 名；游戏尚未实装的角色暂显英文。
+- ntedpsmeter.com 添加「简易工具」分页，第一个工具是**队伍搭配器**：免费、不需登录、不需上传战报。
+- 点下方角色卡即填入上方四格，即时列出 8 种异能环合反应（6 种双元素＋2 种三元素）的覆盖状况：可触发的置顶高亮，未触发的保持灰态，一眼看出还差哪个元素。
+- 反应名称与说明取自游戏官方数据。
+- 页面明示判定范围：**仅依元素覆盖判定**，实战打不打得出反应，还要看你的循环有没有真的触发异能环合。
+- 队伍四格采圆形大头贴、下方角色列维持全身立绘；手机版四格改 2×2 排列。
 
 ---
 
-### 新功能：轨外之境新环线
+### 改善：技能名正名与补齐
 
-- 添加「燎原环线」识别；「浪涌环线」与「月恒环线」一并预先登记，游戏开放即自动支持。
-
----
-
-### 改善：异能环合反应正名
-
-- 技能明细的元素反应名改用游戏官方词：超导→**覆纹**、蒸发→**黯星**、融化→**浸染**；倾陷的英文显示改为官方词 **Break**。
-- 59 笔原本显示代号的反应条目补上官方名——明细中曾出现的「4_new」即黯星、「5_new」即浊燃。
-
----
-
-### 改善：技能标签正名
-
-- 真红「威慑凝视」相关伤害标签正名为「即瞬猛袭」。
-- 全量扫描后再修 17 笔同型标签：九原「致约清算」「风声为我所用」「知晓每一条秘密」、翳「兽牙影刺」、安魂曲「恶梦」「风味变奏」、白藏「适度上班」、薄荷「极限反击：焦糖脆片」、真红「独行」、娜娜莉「绝对『公正』的决斗」「要叫大姐头」、卡厄斯「未迟到的正义」（四语皆采官方词）。
+- **达芙蒂尔**的战斗细节此前全部显示内部代号，本版 76 个条目中 54 个具名：五段普攻各自显示官方分段名（止水／分光／临水照影／错位锋芒／十字确认）、变轨技能（同振／如响斯应）、大招「见此终幕」、极限反击与 QTE 全部到位。
+- 大招衍生的「洞察」额外真实伤害（目标进入倾陷时触发）补上四语名称。
+- **83 笔既有技能名由短名升级为官方分段全名。** 这些条目过去多笔共用同一个名字，现在各段各自正名：
+  - 九原第一段普攻由「秘密成型时」改为「普通攻击：秘密成型时」；第二段此前显示的是同一个名字，现在改为它真正的分段名「普通攻击：俯瞰全局」。
+  - 阿德勒多笔条目此前共用「渡恶」，现在分别显示「普通攻击：无明」「普通攻击：灭苦」「极限反击：揭谛」。
+  - 安魂曲的普攻此前共用「酸甜口味的制裁」，现已正名为「普通攻击：茄汁打击乐」「普通攻击：茄汁金属乐」。
+- **你会看到部分既有技能名变长或改字——这是正名，不是误植。**
 
 ---
 
-### 改善：Discord 登录与序号
+### 改善：图标与立绘补齐
 
-- Discord 登录验证升级：早期方式登录的用户，启动时会被要求重新登录一次（点登录即完成，序号与数据不受影响）。
-- 序号激活添加「使用中」自愈：席位卡在前次未正常释放时，自动回收并重试，不再需要联系管理员。
-- 序号激活错误添加「已撤销」提示（付款遭退款的序号）。
-
----
-
-### 改善：上传同意
-
-- 上传同意改为版本化记录：已勾选的同意自动沿用，未来条款更新时才会重新征求一次。
-- 公告窗口的同意勾选随时可勾选或取消，变更即时生效。
+- 好感度礼物、养成材料、抽卡道具共 **70 个图标**此前显示占位图，本版一次补齐；三类复验零缺图（养成材料 81 项、好感度礼物 107 项、抽卡道具 71 项）。
+- 补上**伊洛伊**的角色立绘与觉醒背景（该角色上线以来一直缺）。
 
 ---
 
 ### 改善：游戏数据更新
 
-- 技能名对照表更新至最新游戏版本；角色养成金币消耗依官方新数值下修。
+- 技能名对照表更新至最新游戏版本。
+- 卡厄斯添加偏好礼物「焰火海鲜饭」。
+- 一笔养成材料的英文名依官方修正（Dress Sleeves of Vanity → Dress Hem of Vanity）。
 
 ---
 
-### 修正：更新器
+### 改善：社群平台其他更新
 
-- 更新器缺档或启动失败时，不再误清「有新版本」提示；取消或提早关闭更新器后，提示会恢复。
-- 更新器要求关闭主程序时，改为正常关闭交接，不再误缩到系统匣。
-- 修正更新交接期间可能逾时的问题。
-
----
-
-### 修正：其他
-
-- 多项内部稳定性修正。
+- 部分角色英文名改用游戏官方版：早雾 Sagiri → **Sakiri**、海月 Mitsuki → **Aurelia**、主角 Zero M／F → **Zero (M)／(F)**；另补上四名角色的繁体中文名。排行、配对、抽卡各页一并对齐。
+- 抽卡统计页补上伊洛伊三件时装的图标（夏日梦／天际猎手-滑翔翼／赤炎龙影-涂装）。
+- 网站改用无 cookie 的流量统计。
 
 </details>
 
@@ -243,77 +159,49 @@ Numbers popping on screen while DPS records nothing — this class of "trigger-t
 
 <summary>日本語</summary>
 
-### 新機能：トリガー型追加ダメージの計測
+本バージョンのデスクトップ版は**ゲームデータとアイコンの更新**で、エンジンやインターフェースの変更は含みません。あわせてコミュニティサイト（ntedpsmeter.com）に**パーティ編成**ツールを追加しました。サイト上ですぐ使え、アプリの更新は不要です。
 
-画面には数字が出ているのに DPS には記録されない——この種の「トリガー型追加ダメージ」は、これまで認識できなかった形式で送られていました。本バージョンで完全に対応しました。
+### 新機能：パーティ編成ツール（コミュニティサイト、無料）
 
-- **真紅の「刹那の猛撃」**（特定状態から発動する追加の一撃）はこれまで一度も計測されていませんでした；現在はすべてのヒット（クリティカル含む）が DPS と戦闘レポートのスキル詳細にリアルタイムで反映され、実録データで一つずつ検証済みです（画面の数字と 1:1）。
-- 認識は汎用機構であり特定のキャラクターに紐づきません——他のキャラクターの同型トリガーダメージも、同じ形式であれば自動的に対応します。
-- この種のイベントがまれに取りこぼされる問題を修正しました。
-- 九百九十九夜にも同時に保護を追加し、同一のダメージが二重に計算されないようにしました。
-- 他にも「画面に数字が出るのに DPS に乗らない」スキルを見つけた場合は、ぜひご報告ください。
-
----
-
-### 新機能：日本語インターフェース
-
-- インターフェースが日本語に対応しました（UI 全体を翻訳、モード名はゲーム公式の日本語表記を採用）；OS の言語が日本語の場合、初回起動時に自動で選択されます。
-- データ名も公式日本語で全面的に整備：セッションとボスの表示名、育成素材、好感度ギフトと入手ショップ名、ガチャアイテムとバナー名、九百九十九夜のアクセサリー効果名。
-- 日本語のキャラクター名は 35 名まで拡充；ゲーム未実装のキャラクターは暫定的に英語表記となります。
+- ntedpsmeter.com に「かんたんツール」タブを追加し、最初のツールが**パーティ編成**です：無料、ログイン不要、戦績のアップロードも不要。
+- 下のキャラクターカードをタップすると上の 4 枠に入り、8 種類の異能連環（2 属性 6 種＋3 属性 2 種）の成立状況が即時に更新されます：成立するものは上部で強調表示、成立しないものはグレー表示のままなので、どの属性が足りないか一目で分かります。
+- 反応の名称と説明はゲーム公式データから取得しています。
+- 判定の範囲はページ上で明示しています：**属性の組み合わせだけで判定**しており、実戦で反応が出るかは、ローテーションが異能連環を実際に発生させるかどうか次第です。
+- パーティの 4 枠は丸型アイコン、下のキャラクター一覧は全身イラストのままです；スマートフォンでは 4 枠が 2×2 配置になります。
 
 ---
 
-### 新機能：軌道外領域の新しい環状線
+### 改善：スキル名の正式名称化と補完
 
-- **焦熱の環状線**の認識に対応しました；**激流の環状線**と**月恒の環状線**も事前に登録済みで、ゲームで開放され次第、自動的に対応します。
-
----
-
-### 改善：エスパー環合反応の名称を公式表記に統一
-
-- スキル詳細の元素反応名がゲーム公式の用語になりました：超電導 → **覆紋**、蒸発 → **暗星**、溶解 → **浸染**；ブレイクダメージの英語表記も公式用語の **Break** に変更しました。
-- これまでコード表記のままだった 59 件の反応項目に公式名を補完しました——詳細で見かけた「4_new」は暗星、「5_new」は濁燃です。
-
----
-
-### 改善：スキルラベルの名称修正
-
-- 真紅の威嚇状態に関連するダメージラベルを「刹那の猛撃」に統一しました。
-- 全件スキャンにより、さらに 17 件の同型ラベルを修正：九原「誓約の清算」「噂話の利用価値」「全ての秘密を知る者」、翳「影獣牙突」、レクイエム「悪夢」「フレーバー変奏」、白蔵「適度出勤」、ミント「極限反撃：キャラメルクランチ」、真紅「独歩」、ナナリ「絶対『公正』な決闘」「姉御と呼ぶべし」、カオス「逃れられぬ正義」（4 言語すべて公式用語を採用）。
+- **ダフォディール**の戦闘詳細は、これまで全項目が内部コード表示でした。本バージョンで 76 項目のうち 54 項目に名称が付きました：通常攻撃 5 段はそれぞれ公式の段別名（止水／分光／水鏡の影／錯綜する刃先／十字確認）、バイレールスキル（共振／共鳴即応）、必殺技「終幕の刻」、極限反撃と QTE まで揃いました。
+- 必殺技から派生する追加の確定ダメージ「インサイト」（対象がブレイク状態になったときに発動）に 4 言語の名称を補完しました。
+- **既存のスキル名 83 件を、略称から公式の段別フルネームに更新しました。** これらの項目は以前は複数が同じ名前を共有していましたが、各段がそれぞれの名称を持つようになりました：
+  - 九原の通常攻撃 1 段目は「秘密形成の時」から「通常攻撃：秘密形成の時」へ。2 段目はこれまで同じ名前が表示されていましたが、本来の段別名「通常攻撃：全域俯瞰」になりました。
+  - アドレーの複数項目は「渡悪」を共有していましたが、それぞれ「通常攻撃：無明」「通常攻撃：滅苦」「極限反撃：羯諦」と表示されます。
+  - レクイエムの通常攻撃は「甘酸っぱい制裁」を共有していましたが、「通常攻撃：トマトドラム」「通常攻撃：トマトメタル」に正式名称化されました。
+- **既存のスキル名が長くなったり表記が変わったものがあります——これは正式名称への修正であり、誤表示ではありません。**
 
 ---
 
-### 改善：Discord ログインとシリアルキー
+### 改善：アイコンとキャラクターイラストの補完
 
-- Discord ログイン認証をアップグレードしました：旧方式でログインしていた方は、起動時に一度だけ再ログインを求められます（クリックするだけで完了、シリアルキーとデータに影響はありません）。
-- シリアルキーの有効化に「使用中」の自動復旧を追加：前回のセッションで枠が解放されないまま固まっていた場合、自動的に回収して再試行します——管理者への連絡は不要になりました。
-- 有効化エラーに「取り消し済み」の案内を追加しました（支払いが返金されたシリアルキー）。
-
----
-
-### 改善：アップロード同意
-
-- アップロード同意をバージョン管理方式に変更：既にご同意いただいている内容はそのまま引き継がれ、今後は規約が更新されたときのみ再度確認します。
-- アナウンスウィンドウの同意チェックはいつでもオン／オフでき、変更は即座に反映されます。
+- 好感度ギフト、育成素材、ガチャアイテムの計 **70 個のアイコン**がこれまで仮アイコン表示でしたが、本バージョンで一括補完しました。3 カテゴリすべて欠損ゼロを再確認済みです（育成素材 81 点、好感度ギフト 107 点、ガチャアイテム 71 点）。
+- **イロヒ**のキャラクターイラストと覚醒背景を追加しました（実装以来ずっと欠けていたものです）。
 
 ---
 
 ### 改善：ゲームデータ更新
 
-- スキル名対照表を最新のゲームバージョンに更新しました；キャラクター育成のコイン消費も公式の新数値に合わせて下方修正しました。
+- スキル名対照表を最新のゲームバージョンに更新しました。
+- カオスの好みのギフトに「花火海鮮ピラフ」が追加されました。
+- 育成素材 1 点の英語名を公式に合わせて修正しました（Dress Sleeves of Vanity → Dress Hem of Vanity）。
 
 ---
 
-### 修正：アップデーター
+### 改善：コミュニティサイトのその他の更新
 
-- アップデーターのファイル欠損や起動失敗時に、「新しいバージョンがあります」の通知を誤って消さないよう修正しました；アップデーターをキャンセルまたは早期に閉じた場合、通知は元に戻ります。
-- アップデーターがメインプログラムの終了を要求する際、トレイに誤って最小化されず、正常に終了して引き継ぐようになりました。
-- 更新の引き継ぎ中にタイムアウトする可能性があった問題を修正しました。
-
----
-
-### 修正：その他
-
-- 内部の安定性に関する複数の修正。
+- 一部キャラクターの英語名をゲーム公式表記に変更しました：早霧 Sagiri → **Sakiri**、海月 Mitsuki → **Aurelia**、主人公 Zero M／F → **Zero (M)／(F)**；さらに 4 名のキャラクターに繁体字中国語名を補完しました。ランキング、編成、ガチャの各ページも統一済みです。
+- ガチャ統計ページにイロヒの衣装 3 点のアイコンを追加しました（夏うつつ／ダークチェイサー-グライダー／ドラグーン-塗装）。
+- サイトのアクセス統計を cookie 不使用の方式に変更しました。
 
 </details>
