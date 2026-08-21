@@ -91,7 +91,7 @@ Analyze your battle history and track personal growth across four tabs. All data
 
 ### Cultivation Guide (Free)
 
-Material overview for 20 characters — breakthrough materials, skill upgrades (including passives), and bond gift strategies with three optimization modes.
+Material overview for 22 characters — breakthrough materials, skill upgrades (including passives), and bond gift strategies with three optimization modes.
 
 ![Cultivation](images/char_grow_EN_v5.png?v=510)
 
