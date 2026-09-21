@@ -125,7 +125,7 @@ Live community data aggregated from uploaded battle reports:
 - **Quad-lingual interface** — 繁體中文 / 简体中文 / English / 日本語 (dropdown selection or right-click menu cycle)
 - **System tray resident** — runs quietly, no taskbar clutter
 - **Auto-updater** — check for updates from the right-click menu
-- **Recommendation Card** — a dismissible card on the right of the main window, Character Growth, Gacha History and Report Manager, featuring another game by the same author; it never appears over the combat overlay
+- **Recommendation Card** — a dismissible card on the right of the main window, Character Growth, Gacha History, Report Manager and the Personal Dashboard, featuring another game by the same author; it never appears over the combat overlay
 
 ---
 

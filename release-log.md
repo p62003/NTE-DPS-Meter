@@ -15,7 +15,7 @@ Both previously required a sponsor serial and were hidden behind a blur until ac
 
 ### New: Recommendation Card
 
-A clickable card now appears on the right side of four screens — the main window, Character Growth, Gacha History and Report Manager. It features another game by the same author.
+A clickable card now appears on the right side of five screens — the main window, Character Growth, Gacha History, Report Manager and the Personal Dashboard. It features another game by the same author.
 
 - It slides in from the right each time you open the window; the ✕ in its corner dismisses it.
 - Once dismissed it stays hidden for that window until you open the window again.
@@ -50,7 +50,7 @@ Skill names, growth materials and character values all come from game data. This
 
 ### 新增：推薦卡片
 
-主視窗、角色養成、抽卡紀錄、戰報管理四個畫面的右側，新增一張可點擊的卡片，內容是作者自己的另一款遊戲。
+主視窗、角色養成、抽卡紀錄、戰報管理、個人數據中心五個畫面的右側，新增一張可點擊的卡片，內容是作者自己的另一款遊戲。
 
 - 每次開啟視窗時由右側滑出，右上角的 ✕ 可以關閉。
 - 關閉後該視窗在本次開啟期間不再顯示，下次開啟會再出現。
@@ -85,7 +85,7 @@ Skill names, growth materials and character values all come from game data. This
 
 ### 添加：推荐卡片
 
-主窗口、角色养成、抽卡纪录、战报管理四个画面的右侧，添加一张可点击的卡片，内容是作者自己的另一款游戏。
+主窗口、角色养成、抽卡纪录、战报管理、个人数据中心五个画面的右侧，添加一张可点击的卡片，内容是作者自己的另一款游戏。
 
 - 每次打开窗口时由右侧滑出，右上角的 ✕ 可以关闭。
 - 关闭后该窗口在本次打开期间不再显示，下次打开会再出现。
@@ -120,7 +120,7 @@ Skill names, growth materials and character values all come from game data. This
 
 ### 新機能：おすすめカード
 
-メインウィンドウ、キャラクター育成、ガチャ履歴、レポート管理の 4 画面の右側に、クリックできるカードを追加しました。内容は作者自身が制作している別のゲームです。
+メインウィンドウ、キャラクター育成、ガチャ履歴、レポート管理、マイデータセンターの 5 画面の右側に、クリックできるカードを追加しました。内容は作者自身が制作している別のゲームです。
 
 - ウィンドウを開くたびに右からスライドで表示され、右上の ✕ で閉じられます。
 - 閉じるとそのウィンドウでは、次に開き直すまで表示されません。
