@@ -72,13 +72,13 @@ Passively captures in-game gacha history packets — character pool (Monopoly di
 
 ![Gacha History](images/gacha_log_EN.png?v=510)
 
-### Report Comparison (Sponsor)
+### Report Comparison
 
 Side-by-side A/B comparison of different team compositions with damage and DPS difference summary + integrated ECG.
 
 ![Compare Mode](images/compare_mode_EN.png?v=510)
 
-### Personal Dashboard (Sponsor)
+### Personal Dashboard
 
 Analyze your battle history and track personal growth across four tabs. All data processed locally — nothing uploaded.
 
@@ -125,6 +125,7 @@ Live community data aggregated from uploaded battle reports:
 - **Quad-lingual interface** — 繁體中文 / 简体中文 / English / 日本語 (dropdown selection or right-click menu cycle)
 - **System tray resident** — runs quietly, no taskbar clutter
 - **Auto-updater** — check for updates from the right-click menu
+- **Recommendation Card** — a dismissible card on the right of the main window, Character Growth, Gacha History and Report Manager, featuring another game by the same author; it never appears over the combat overlay
 
 ---
 
@@ -145,8 +146,8 @@ Live community data aggregated from uploaded battle reports:
 | Network Adapter Selection | ✔ | ✔ |
 | Community Rankings | ✔ | ✔ |
 | Main Window (rankings + hit details + report review) | ✔ | ✔ |
-| Personal Dashboard | — | ✔ |
-| Report Comparison (A/B side-by-side + ECG) | — | ✔ |
+| Personal Dashboard | ✔ | ✔ |
+| Report Comparison (A/B side-by-side + ECG) | ✔ | ✔ |
 | Character Pairing Matrix | — | ✔ |
 | Community Gacha Stats | — | ✔ |
 
