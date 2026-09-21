@@ -9,7 +9,7 @@ Both previously required a sponsor serial and were hidden behind a blur until ac
 
 - Report Comparison: view two reports side by side.
 - Personal Dashboard: battle overview, damage growth, appearance counts, target growth.
-- Existing sponsors are unaffected. What a serial still grants is your Discord name on the rankings and the auto-upload toggle.
+- Existing sponsors are unaffected. What a serial still grants is the community platform's deep analysis (Character Pairing Rates, Community Gacha Statistics), your Discord name on the rankings and the auto-upload toggle.
 
 ---
 
@@ -44,7 +44,7 @@ Skill names, growth materials and character values all come from game data. This
 
 - 戰報比對：兩份戰報並列對照。
 - 個人數據中心：戰鬥總覽、傷害成長曲線、出場次數統計、副本成長曲線。
-- 已啟用序號的贊助者不受影響。序號目前保留的回饋是排行榜顯示 Discord 名稱與自動上傳開關。
+- 已啟用序號的贊助者不受影響。序號目前保留的回饋是社群平台的深度分析（角色配對率、社群抽卡統計）與排行榜顯示 Discord 名稱、自動上傳開關。
 
 ---
 
@@ -79,7 +79,7 @@ Skill names, growth materials and character values all come from game data. This
 
 - 战报比对：两份战报并列对照。
 - 个人数据中心：战斗总览、伤害成长曲线、出场次数统计、副本成长曲线。
-- 已激活序号的赞助者不受影响。序号目前保留的回馈是排行榜显示 Discord 名称与自动上传开关。
+- 已激活序号的赞助者不受影响。序号目前保留的回馈是社群平台的深度分析（角色配对率、社群抽卡统计）与排行榜显示 Discord 名称、自动上传开关。
 
 ---
 
@@ -114,7 +114,7 @@ Skill names, growth materials and character values all come from game data. This
 
 - レポート比較：2 つのレポートを並べて比較。
 - マイデータセンター：戦闘概要、ダメージ成長曲線、出場回数統計、コンテンツ成長曲線。
-- 有効なシリアルをお持ちの方への影響はありません。シリアルで解放されるのは、ランキングへの Discord 名表示と自動アップロード切替です。
+- 有効なシリアルをお持ちの方への影響はありません。シリアルで解放されるのは、コミュニティプラットフォームの詳細分析（キャラ編成ペア率、コミュニティガチャ統計）、ランキングへの Discord 名表示と自動アップロード切替です。
 
 ---
 
